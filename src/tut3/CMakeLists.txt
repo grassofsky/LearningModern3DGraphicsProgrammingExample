@@ -1,0 +1,8 @@
+ADD_EXECUTABLE(move_triangle_1 move_triangle_1.cpp)
+TARGET_LINK_LIBRARIES(move_triangle_1 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} ${GLEW_LIBRARIES})
+
+ADD_EXECUTABLE(move_triangle_2 move_triangle_2.cpp)
+TARGET_LINK_LIBRARIES(move_triangle_2 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} ${GLEW_LIBRARIES})
+
+ADD_EXECUTABLE(move_triangle_3 move_triangle_3.cpp)
+TARGET_LINK_LIBRARIES(move_triangle_3 ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} ${GLEW_LIBRARIES})

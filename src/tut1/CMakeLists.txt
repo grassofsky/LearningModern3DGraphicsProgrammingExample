@@ -1,0 +1,3 @@
+
+ADD_EXECUTABLE(hello_triangle hello_triangle.cpp)
+TARGET_LINK_LIBRARIES(hello_triangle ${OPENGL_LIBRARIES} ${GLUT_LIBRARIES} ${GLEW_LIBRARIES})
